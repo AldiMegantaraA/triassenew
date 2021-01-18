@@ -6,13 +6,13 @@ import './header.styles.scss';
 const Header = () => (
     <div className='header'>
         <Link className="logo-container" to="/">
-            <logo className="logo" />
+            <Logo className="logo" />
         </Link>
         <div className='options'>
-            <Link className='shop' to='/shop'>
+            <Link className='option' to='/shop'>
                 SHOP
             </Link>
-            <Link className='shop' to='/shop'>
+            <Link className='option' to='/shop'>
                 CONTACT
             </Link>
         </div>
