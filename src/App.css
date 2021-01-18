@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans Condensed';
-  /* background-color: black; */
+  background-color: black;
+  color: rgb(255, 255, 255);
   padding: 20px 60px;
 }
