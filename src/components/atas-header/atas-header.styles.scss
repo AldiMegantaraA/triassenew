@@ -1,0 +1,42 @@
+.atas-header {
+    height: 10px;
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-right: 65px;
+    background-color: rgba(128, 128, 128, 0.199);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: -1px;  
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      margin-top: 0px;
+      display: flex;
+      justify-content: flex-start;
+
+      .logo {
+        height: 70px;
+      }
+    }
+  
+    .atas-options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      
+  
+      .atas-option {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #333333;
+        cursor: pointer;
+      }
+    }
+  }
+  

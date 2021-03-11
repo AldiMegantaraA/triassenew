@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuItem from '../menu-items/menu-item.component';
 import './directory.styles.scss';
+import hospital from '../../assets/hospital.png'
 
 class Directory extends React.Component {
     constructor () {
@@ -9,37 +10,46 @@ class Directory extends React.Component {
         this.state = {
             section: [
                 {
-                  title: 'hats',
-                  imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                  title: 'Parahita Buncit',
+                  alamat: 'Jl. Warung Buncit Raya 150 Jakarta Selatan',
+                  imageUrl: {hospital},
                   id: 1,
-                  linkUrl: 'shop/hats'
+                  linkUrl: 'shop/parahita buncit',
+                  promo: 'Hemat 20%',
+                  hargaAwal: 'Rp 370.500',
+                  hargaAkhir: 'Rp 250.578'
                 },
                 {
-                  title: 'jackets',
-                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  title: 'Parahita Buncit',
+                  alamat: 'Jl. Warung Buncit Raya 150 Jakarta Selatan',
+                  imageUrl: {hospital},
                   id: 2,
-                  linkUrl: 'shop/jackets'
+                  linkUrl: 'shop/parahita buncit',
+                  promo: 'Hemat 20%',
+                  hargaAwal: 'Rp 370.500',
+                  hargaAkhir: 'Rp 250.578'
                 },
                 {
-                  title: 'sneakers',
-                  imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                  title: 'Parahita Buncit',
+                  alamat: 'Jl. Warung Buncit Raya 150 Jakarta Selatan',
+                  imageUrl: {hospital},
                   id: 3,
-                  linkUrl: 'shop/sneakers'
+                  linkUrl: 'shop/parahita buncit',
+                  promo: 'Hemat 20%',
+                  hargaAwal: 'Rp 370.500',
+                  hargaAkhir: 'Rp 250.578'
                 },
                 {
-                  title: 'womens',
-                  imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-                  size: 'large',
+                  title: 'Parahita Buncit',
+                  alamat: 'Jl. Warung Buncit Raya 150 Jakarta Selatan',
+                  imageUrl: {hospital},
                   id: 4,
-                  linkUrl: 'shop/womens'
-                },
-                {
-                  title: 'mens',
-                  imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-                  size: 'large',
-                  id: 5,
-                  linkUrl: 'shop/mens'
+                  linkUrl: 'shop/parahita buncit',
+                  promo: 'Hemat 20%',
+                  hargaAwal: 'Rp 370.500',
+                  hargaAkhir: 'Rp 250.578'
                 }
+                
               ]
         }
     }

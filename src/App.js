@@ -5,7 +5,11 @@ import { Switch, Route } from 'react-router-dom';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
-import { auth, createUserProfileDocument } from './firebase/firebase.utils'
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import AtasHeader from './components/atas-header/atas-header.component';
+import Footer from './components/footer/footer.component';
+import Berlangganan from './components/berlangganan/berlangganan.component';
+
 
 
 class App extends React.Component {
@@ -46,12 +50,15 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <AtasHeader/>
         <Header currentUser={this.state.currentUser} />
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route path='/signin' component={SignInAndSignUpPage} />
         </Switch>
+        <Berlangganan />
+        <Footer />
       </div>
     );
   }

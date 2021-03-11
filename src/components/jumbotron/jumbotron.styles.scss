@@ -1,0 +1,38 @@
+.jumbotron {
+    height: 140px;
+    width: 120%;
+    display: flex;
+    margin-bottom: 25px;
+    background-color: rgba(0, 162, 255, 0.137);
+    margin-top: -40px;
+  
+    .logo-container {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 80px;
+    }
+  
+    .options {
+      width: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: flex-start;
+      grid-template-columns: 1fr;
+  
+      .option {
+        padding: 0 70px;
+        color: rgb(0, 50, 143);
+        font-weight: bolder;
+        font-size: 40px;
+      }
+      .options {
+        margin-top: -16px;
+        padding: 0 70px;
+        color: rgb(0, 65, 185);
+      }
+
+    }
+  }
+  
