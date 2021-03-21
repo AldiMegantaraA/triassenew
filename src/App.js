@@ -49,16 +49,17 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
         <AtasHeader/>
+        <HomePage />
         <Switch>
-          <Route exact path='/' component={HomePage} />
+          <Route exact path='/'/>
           <Route path='/shop' component={ShopPage} />
           <Route path='/signin' component={SignInAndSignUpPage} />
         </Switch>
         <Berlangganan />
         <Footer />
-      </div>
+      </>
     );
   }
 }
