@@ -1,12 +1,19 @@
 .header {
     height: 120px;
-    width: 100%;
+    width: 115%;
     padding: 20px 12px;
     display: flex;
+    margin-top: -20px;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     box-shadow: 1px 2px 5px grey;
-  
+    font-size: 1.3rem;
+
+    @media screen and (max-width: 960px) {
+      transition: 0.8s all ease;
+      width: 147%;
+    }
+
     .logo-container {
       height: 100%;
       width: 70px;
@@ -25,16 +32,17 @@
       align-items: center;
       justify-content: flex-start;
       
+      @media screen and (max-width: 960px) {
+        display: none;
+      }
   
       .option {
         padding: 10px 20px;
-        font-size: 20px;
         color: #333333;
         cursor: pointer;
       }
       .masuk {
         padding: 10px 20px;
-        font-size: 20px;
         color: #005fb8;
         cursor: pointer;
         background-color: #7ec1ff86;
@@ -43,7 +51,6 @@
       }
       .daftar {
         padding: 10px 20px;
-        font-size: 20px;
         color: #fff;
         background-color: #004c94;
         cursor: pointer;

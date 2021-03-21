@@ -32,9 +32,11 @@ const MenuItem = ({ title, alamat, size, history, linkUrl, match, promo, hargaAw
         </div>
         <div className='harga'>
             <p>{promo}</p>
-            <h3>{hargaAwal}</h3>
-            <hr className='garis'/>
-            <h1>{hargaAkhir}</h1>
+            <div className="detail_harga">
+                <h3>{hargaAwal}</h3>
+                <hr className='garis'/>
+                <h1>{hargaAkhir}</h1>
+            </div>
         </div>
     </div>
 )

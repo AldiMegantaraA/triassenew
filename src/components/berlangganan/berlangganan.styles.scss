@@ -7,7 +7,16 @@
     height: 100px;
     align-items: center;
     padding: 12px 160px;
-    margin-top: 40px;
+    margin-top: 160px;
+
+    @media (max-width: 960px) {
+        margin-top: 480px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: left;
+        height: 200px;
+        justify-content: center;
+    }
 
     .gridA {
         .option {
@@ -16,6 +25,11 @@
     }
 
     .gridB {
+        @media (max-width: 960px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
         #email {
             background-color: #fff;
             padding: 12px 40px 12px 12px;

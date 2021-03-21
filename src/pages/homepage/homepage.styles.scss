@@ -4,11 +4,19 @@
     align-items: center;
     padding: 20px 80px;
 
+    // .test {
+    //   display: none;
+    // }
+
     hr {
       border: 2px solid rgb(0, 108, 196);
       width: 100%;
       position: absolute;
       top: 90%;
+
+      @media (max-width: 960px) {
+        top: 100%;
+      }
     }
   }
   
